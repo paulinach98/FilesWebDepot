@@ -39,7 +39,7 @@ url = "http://localhost:44355/api/files"
 
 payload={}
 files=[
-  ('file',('arma_yes.png',open('/C:/Users/<user_name>/Desktop/test.pdf','rb'),'application/pdf'))
+  ('file',('test.pdf',open('/C:/Users/<user_name>/Desktop/test.pdf','rb'),'application/pdf'))
 ]
 headers = {}
 
