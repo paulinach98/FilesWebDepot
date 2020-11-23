@@ -39,7 +39,7 @@ namespace FilesWebDepot
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            
 
             app.UseRouting();
 
