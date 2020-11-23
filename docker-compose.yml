@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  fileswebdepot:
+    image: ${DOCKER_REGISTRY-}fileswebdepot
+    build:
+      context: .
+      dockerfile: FilesWebDepot/Dockerfile

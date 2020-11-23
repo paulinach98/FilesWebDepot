@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30611.23
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1300
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilesWebDepot", "FilesWebDepot\FilesWebDepot.csproj", "{31E54E6F-E647-49D3-8990-6FBDC49854FD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilesWebDepot.Tests", "FilesWebDepot.Tests\FilesWebDepot.Tests.csproj", "{45240C1A-65A1-408D-B7EE-7CF2F1727B03}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D5C235F6-D716-4B7B-B51C-3420D26EC8EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{45240C1A-65A1-408D-B7EE-7CF2F1727B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45240C1A-65A1-408D-B7EE-7CF2F1727B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45240C1A-65A1-408D-B7EE-7CF2F1727B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C235F6-D716-4B7B-B51C-3420D26EC8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C235F6-D716-4B7B-B51C-3420D26EC8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C235F6-D716-4B7B-B51C-3420D26EC8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C235F6-D716-4B7B-B51C-3420D26EC8EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
